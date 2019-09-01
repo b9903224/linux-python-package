@@ -24,7 +24,7 @@ ref.
 4. 執行 make install
 5. 執行完畢後可移除暫存檔(執行 make clean)
 
-#### 方法2
+##### 方法2
 套件只能暫時安裝(暫時性的修改環境變數)，重新開機後就無法使用了
 1. 分別下載rpm檔案(可以下載此repo的檔案)，解壓縮(執行rpm2cpio (rpm檔案名稱) | cpio -idvm)
 2. 假設再~data/目錄下解壓縮，編輯 ~/.bashrc 檔案(修改export PATH=$PATH:$HOME/data/usr/bin/) 
